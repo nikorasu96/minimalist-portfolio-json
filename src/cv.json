@@ -60,6 +60,17 @@
         "Desarrollé habilidades de atención al detalle y trabajo bajo presión.",
         "Conecté y empatizé con personas para asegurar su cooperación."
       ]
+    },
+    {
+      "name": "Ferretería Local",
+      "position": "Asistente Administrativo",
+      "startDate": "2024-10",
+      "endDate": "2024-11",
+      "summary": "Colaboré en la administración del sistema de inventario y facturación.",
+      "highlights": [
+        "Agregué productos al sistema de inventario para optimizar la gestión de stock.",
+        "Ayudé a ingresar facturas al sistema, mejorando el control administrativo."
+      ]
     }
   ],
   "volunteer": [
@@ -74,6 +85,16 @@
     }
   ],
   "education": [
+    {
+      "institution": "Liceo Politécnico Hannover",
+      "url": null,
+      "area": "Técnico en Telecomunicaciones",
+      "studyType": "Educación Media Técnico-Profesional",
+      "startDate": "2013-03",
+      "endDate": "2017",
+      "score": null,
+      "courses": []
+    },
     {
       "institution": "Duoc UC",
       "url": "https://www.duoc.cl/",
@@ -117,7 +138,7 @@
   ],
   "skills": [
     {
-      "name": "HTML",
+      "name": "HTML5",
       "level": "Básico",
       "keywords": [
         "Etiquetas básicas",
@@ -126,7 +147,7 @@
       ]
     },
     {
-      "name": "CSS",
+      "name": "CSS3",
       "level": "Básico",
       "keywords": ["Estilización básica", "Selectores", "Modelo de cajas"]
     },

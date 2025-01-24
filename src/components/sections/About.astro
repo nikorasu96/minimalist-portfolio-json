@@ -3,10 +3,15 @@ import Section from "../Section.astro";
 
 import { basics } from "@/cv.json";
 const { summary } = basics;
+const { email } = basics;
+const { phone } = basics;
+import Hero from "./Hero.astro";
 ---
 
 <Section title="Sobre mí">
   <p>
     {summary}
   </p>
+
 </Section>
+

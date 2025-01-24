@@ -84,8 +84,6 @@ pnpm dev
 | ⚙️  | `build`         | Comprueba posibles errores y hace un empaquetado de producción en `./dist/`. |
 | ⚙️  | `preview`       | Vista previa en local `localhost:4321`                                       |
 
-## 🔑 Licencia
-
 ## Licencia
 
 Este proyecto está bajo la licencia [MIT](/LICENSE.txt).  

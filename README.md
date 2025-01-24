@@ -1,58 +1,92 @@
-Schema del JSON de CV:
-https://jsonresume.org/schema
+<div align="center">
+<img src="/public/favicon.svg" height="90px" width="auto" /> 
+<h2>
+    Resumen minimalista maquetado para web y pdf
+</h2>
+<p>
+Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
+</p>
 
-Basado en el diseño de:
-https://github.com/BartoszJarocki/cv
+<p>
+Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
+</p>
 
-Edita el archivo 'cv.json' para crear tu propio Portafolio/CV imprimible.
+<p>
+Inspirado y desarrollado siguiendo el tutorial de <a href="https://github.com/midudev/minimalist-portfolio-json">midudev</a>
+</p>
 
+</div>
 
+<div align="center">
+    <a href="#🚀-empezar">
+        Empezar
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#🧞-comandos">
+        Comandos
+    </a>
+   
+</div>
 
-<!-- # Astro Starter Kit: Basics
+<p></p>
 
-```sh
-npm create astro@latest -- --template basics
+<div align="center">
+
+![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
+![GitHub stars](https://img.shields.io/github/stars/nikorasu96/minimalist-portfolio-json?style=flat)
+![GitHub issues](https://img.shields.io/github/issues/nikorasu96/minimalist-portfolio-json?style=flat)
+![GitHub forks](https://img.shields.io/github/forks/nikorasu96/minimalist-portfolio-json?style=flat)
+![GitHub PRs](https://img.shields.io/github/issues-pr/nikorasu96/minimalist-portfolio-json?style=flat)
+
+</div>
+
+<img src="/src/img/portada.png"></img>
+
+## 🛠️ Stack
+
+- [**Astro**](https://astro.build/) - El framework web de la nueva época.
+- [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
+- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
+
+## 🚀 Empezar
+
+### 1. Usa este [repo](https://github.com/nikorasu96/minimalist-portfolio-json) como _template_ de un proyecto de Astro
+
+- Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
+
+```bash
+# Activa pnpm en MacOS, WSL & Linux:
+corepack enable
+corepack prepare pnpm@latest --activate
+
+# Inicializa el proyecto
+pnpm create astro@latest -- --template midudev/minimalist-portfolio-json
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+### 2. Añade tu contenido:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+### 3. Lanza el servidor de desarrollo:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+# Disfruta del resultado
+pnpm dev
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+1. Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
 
-## 🧞 Commands
+## 🧞 Comandos
 
-All commands are run from the root of the project, from a terminal:
+|     | Comando         | Acción                                                                       |
+| :-- | :-------------- | :--------------------------------------------------------------------------- |
+| ⚙️  | `dev` o `start` | Lanza un servidor de desarrollo local en `localhost:4321`.                   |
+| ⚙️  | `build`         | Comprueba posibles errores y hace un empaquetado de producción en `./dist/`. |
+| ⚙️  | `preview`       | Vista previa en local `localhost:4321`                                       |
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🔑 Licencia
 
-## 👀 Want to learn more?
+## Licencia
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat). -->
+Este proyecto está bajo la licencia [MIT](/LICENSE.txt).  
+Creado siguiendo el tutorial de [**midudev**](https://midu.dev), donde se explica cómo crear un portafolio minimalista con JSON y Astro.

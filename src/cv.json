@@ -29,17 +29,6 @@
   },
   "work": [
     {
-      "name": "Municipalidad de Padre Hurtado",
-      "position": "Práctica de Ingeniería Informática",
-      "startDate": "2023-07",
-      "endDate": "2023-09",
-      "summary": "Apoyé en la implementación de automatización de pruebas y brindé soporte técnico.",
-      "highlights": [
-        "Implementé sistemas de automatización de pruebas con Selenium, logrando una reducción del 40% en tiempos de prueba.",
-        "Resolví problemas de hardware, software y redes de manera eficiente."
-      ]
-    },
-    {
       "name": "Motion Group",
       "position": "Asistente de Pasajero de Avión",
       "startDate": "2023-04",
@@ -48,6 +37,17 @@
       "highlights": [
         "Resolví problemas y consultas con empatía y profesionalismo.",
         "Aseguré una experiencia cómoda para los pasajeros con movilidad reducida."
+      ]
+    },
+    {
+      "name": "Municipalidad de Padre Hurtado",
+      "position": "Práctica de Ingeniería Informática",
+      "startDate": "2023-07",
+      "endDate": "2023-09",
+      "summary": "Apoyé en la implementación de automatización de pruebas y brindé soporte técnico.",
+      "highlights": [
+        "Implementé sistemas de automatización de pruebas con Selenium, logrando una reducción del 40% en tiempos de prueba.",
+        "Resolví problemas de hardware, software y redes de manera eficiente."
       ]
     },
     {

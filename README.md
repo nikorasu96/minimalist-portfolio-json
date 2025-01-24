@@ -50,27 +50,31 @@ Inspirado y desarrollado siguiendo el tutorial de <a href="https://github.com/mi
 
 ## 🚀 Empezar
 
-### 1. Usa este [repo](https://github.com/nikorasu96/minimalist-portfolio-json) como _template_ de un proyecto de Astro
+### 1. Usa este repositorio como base para tu proyecto
 
-- Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
+Este [repositorio](https://github.com/nikorasu96/minimalist-portfolio-json) puede servir como plantilla inicial para un proyecto en Astro.
+
+- Prefiero usar [pnpm](https://pnpm.io/installation) como herramienta para gestionar dependencias y empaquetar proyectos.
 
 ```bash
-# Activa pnpm en MacOS, WSL & Linux:
+# Habilita pnpm en tu sistema (MacOS, WSL o Linux):
 corepack enable
 corepack prepare pnpm@latest --activate
 
-# Inicializa el proyecto
+# Inicia el proyecto con Astro y esta plantilla:
 pnpm create astro@latest -- --template midudev/minimalist-portfolio-json
 ```
 
-### 2. Añade tu contenido:
+### 2. Personaliza el contenido
 
-Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
+Modifica el archivo `cv.json` para construir tu Portafolio o CV listo para impresión.
 
-### 3. Lanza el servidor de desarrollo:
+### 3. Ejecuta el servidor de desarrollo
+
+Inicia el servidor para previsualizar tu proyecto en tiempo real:
 
 ```bash
-# Disfruta del resultado
+# Arranca el servidor
 pnpm dev
 ```
 

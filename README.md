@@ -87,4 +87,4 @@ pnpm dev
 ## Licencia
 
 Este proyecto está bajo la licencia [MIT](/LICENSE.txt).  
-Creado siguiendo el tutorial de [**midudev**](https://midu.dev), donde se explica cómo crear un portafolio minimalista con JSON y Astro.
+Creado siguiendo el tutorial de [**midudev**](https://www.youtube.com/watch?v=Zwh92LTB-Bk), donde se explica cómo crear un portafolio minimalista con JSON y Astro.

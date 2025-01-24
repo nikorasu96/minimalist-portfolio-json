@@ -1,0 +1,191 @@
+{
+  "basics": {
+    "name": "Nicolas Endress",
+    "label": "Profesional en desarrollo con base en TI, enfoque en aprendizaje continuo y en formación práctica en tecnologías web",
+    "image": "/image_perfil.webp",
+    "email": "nicolasendress@gmail.com",
+    "phone": "987372746",
+    "url": "",
+    "summary": "Ingeniero en informática en desarrollo, con una base en soporte técnico y conocimientos básicos en fundamentos de la informática. Actualmente, estoy enfocado en aprender y practicar tecnologías web como HTML, CSS, JavaScript y Astro. Me caracterizo por mi compromiso con el aprendizaje continuo y mi adaptabilidad para enfrentar nuevos desafíos tecnológicos.",
+    "location": {
+      "address": "",
+      "postalCode": "8320000",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Chile"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "nikoxing96",
+        "url": "https://github.com/nikorasu96"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Nicolas Willehard Endress",
+        "url": "https://www.linkedin.com/in/nicolas-willehard-endress-avello-413037198"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Municipalidad de Padre Hurtado",
+      "position": "Práctica de Ingeniería Informática",
+      "startDate": "2023-07",
+      "endDate": "2023-09",
+      "summary": "Apoyé en la implementación de automatización de pruebas y brindé soporte técnico.",
+      "highlights": [
+        "Implementé sistemas de automatización de pruebas con Selenium, logrando una reducción del 40% en tiempos de prueba.",
+        "Resolví problemas de hardware, software y redes de manera eficiente."
+      ]
+    },
+    {
+      "name": "Motion Group",
+      "position": "Asistente de Pasajero de Avión",
+      "startDate": "2023-04",
+      "endDate": "2023-05",
+      "summary": "Brindé asistencia a pasajeros con movilidad reducida, garantizando una experiencia segura.",
+      "highlights": [
+        "Resolví problemas y consultas con empatía y profesionalismo.",
+        "Aseguré una experiencia cómoda para los pasajeros con movilidad reducida."
+      ]
+    },
+    {
+      "name": "Instituto Nacional de Estadísticas (INE) Chile",
+      "position": "Censista",
+      "startDate": "2024-04",
+      "endDate": "2024-07",
+      "summary": "Realicé encuestas puerta a puerta para recopilar datos precisos.",
+      "highlights": [
+        "Desarrollé habilidades de atención al detalle y trabajo bajo presión.",
+        "Conecté y empatizé con personas para asegurar su cooperación."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Duoc UC",
+      "url": "https://www.duoc.cl/",
+      "area": "Ingeniería en Informática",
+      "studyType": "Carrera Profesional",
+      "startDate": "2019-03",
+      "endDate": "2023-09",
+      "score": null,
+      "courses": [
+        "Desarrollo web con HTML y CSS",
+        "Automatización de procesos",
+        "Introducción a Python",
+        "Bases de datos con MySQL"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Certificado de Título en Ingeniería en Informática",
+      "date": "2024-08-30",
+      "awarder": "Duoc UC",
+      "summary": "Obtención del título profesional de Ingeniería en Informática tras la culminación exitosa de los estudios y entrega oficial del certificado."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Básico",
+      "keywords": [
+        "Etiquetas básicas",
+        "Estructura de documentos",
+        "Formularios"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Básico",
+      "keywords": ["Estilización básica", "Selectores", "Modelo de cajas"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Básico",
+      "keywords": ["Manipulación básica de DOM", "Eventos", "Sintaxis básica"]
+    },
+    {
+      "name": "Astro",
+      "level": "Básico",
+      "keywords": [
+        "Componentes",
+        "Framework para desarrollo web",
+        "Generación de sitios estáticos"
+      ]
+    },
+    {
+      "name": "Soporte Técnico",
+      "level": "Intermedio",
+      "keywords": [
+        "Instalación de hardware",
+        "Solución de problemas",
+        "Formateo de equipos",
+        "Instalación de programas"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Página Web para Podología Clínica Maritza",
+      "startDate": "2025-01",
+      "endDate": null,
+      "description": "Diseño y desarrollo de una página web profesional para una clínica de podología, enfocada en presentar servicios, trayectoria y contacto de forma clara y atractiva.",
+      "highlights": [
+        "Sección de servicios que detalla tratamientos como uñas encarnadas, pie diabético y más.",
+        "Información de contacto accesible y navegación intuitiva.",
+        "Tecnologías usadas: HTML, CSS, JavaScript y Astro."
+      ],
+      "isActive": true,
+      "url": null
+    }
+  ]
+}

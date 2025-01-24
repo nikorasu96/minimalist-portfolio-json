@@ -6,6 +6,8 @@ import Phone from "@/icons/Phone.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
+
+
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
@@ -15,9 +17,13 @@ const SOCIAL_ICONS: Record<string, any> = {
 };
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
-const linkdeInfo = linkedInfo?.url;
+const linkdeUrl = linkedInfo?.url;
 
-const printInfo = [email, phone, linkdeInfo].filter(Boolean).join("•");
+const githubInfo = profiles.find(({ network }) => network === "GitHub");
+const githubUrl = githubInfo?.url;
+
+const printInfo = [email, phone, linkdeUrl].filter(Boolean).join(" • ");
+
 ---
 
 <Section>
@@ -37,10 +43,8 @@ const printInfo = [email, phone, linkdeInfo].filter(Boolean).join("•");
         {
           email && (
             <a
-              href={"mailto:${email}"}
-              title={
-                "Enviar un correo electronico a ${name} al correo ${email}"
-              }
+              href={`mailto:${email}`}
+              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -52,8 +56,8 @@ const printInfo = [email, phone, linkdeInfo].filter(Boolean).join("•");
         {
           phone && (
             <a
-              href={"tel:${phone}"}
-              title={"Llamar por telefono a ${name} al numero ${phone}"}
+              href={`tel:${phone}`}
+              title={`Llamar por teléfono a ${name} al número ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -68,12 +72,14 @@ const printInfo = [email, phone, linkdeInfo].filter(Boolean).join("•");
             return (
               <a
                 href={url}
-                title={"Visita el perfil de ${name} en ${network}"}
+                title={`Visitar el perfil de ${name} en ${network}`}
                 target="_blank"
                 rel="noonpener noreferrer"
               >
+                
                 <Icon />
               </a>
+              
             );
           })
         }
@@ -129,7 +135,7 @@ const printInfo = [email, phone, linkdeInfo].filter(Boolean).join("•");
 
   footer {
     color: #555;
-    font-size:0.65rem ;
+    font-size: 0.65rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
